@@ -28,14 +28,3 @@ python tools/coupling_check.py # regenerates results in docs/architecture/COUPLI
 ```
 
 All three use only the Python standard library.
-
-## Before you submit: things only the team can do
-
-1. Add Abdullah's full name wherever "Abdullah" appears (charter, ADRs, risk register, disclosure).
-2. Commit this package **unchanged first** as `raw(ai): M1 package draft [Claude]`, then make your edits in separate `fix(human): ...` commits.
-3. Read every file. Fill in the [correction log](docs/REQUIREMENTS_CORRECTION_LOG.md) with at least 3–5 real changes you made.
-4. Fill in the disclosure log: who read each file, one AI error, one rejected suggestion, and signatures.
-5. Confirm with the instructor that drafting with a non-DEVAI tool is acceptable (see the disclosure log warning).
-6. Re-verify the Render prices on render.com/pricing. Replace the **example** DEVAI token rates in `tools/cost_model.py` with the real ones, then rerun it.
-7. Run the **official** course coupling detector, ADR linter and coherence check, and save their reports in the repo.
-8. Run `python tools/check_m1.py` and record the result in the traceability verification table.
