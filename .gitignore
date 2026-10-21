@@ -1,0 +1,15 @@
+# secrets and local data
+.env
+*.db
+*.sqlite3
+backups/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+mutants/
+.mutmut-cache
